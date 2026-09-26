@@ -1,0 +1,18 @@
+name: AstralMacePlugin
+version: 1.0
+main: com.astralmace.plugin.AstralMacePlugin
+api-version: 1.21
+author: YourName
+description: A plugin that adds the Astral Mace weapon
+
+commands:
+  astralmace:
+    description: Get an Astral Mace (OP only)
+    usage: /astralmace
+    permission: astralmace.get
+    permission-message: You must be a server operator to use this command!
+
+permissions:
+  astralmace.get:
+    description: Allows player to get an Astral Mace
+    default: op
